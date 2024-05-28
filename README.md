@@ -20,5 +20,5 @@ O objetivo deste projeto é realizar a comunicação com a API, coletar 100 tupl
 
 ## Links e Referências
 
-- [Descrição do trabalho de Laboratório de Banco de Dados](TR___TRABALHO_PRÁTICO_LBD_2024.pdf)
+- [Descrição do trabalho de Laboratório de Banco de Dados | PDF](TR___TRABALHO_PRÁTICO_LBD_2024.pdf)
 - [Documentação da API Web | Spotify Developer](https://developer.spotify.com/documentation/web-api)
