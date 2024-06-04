@@ -9,7 +9,7 @@ A API Web do Spotify permite a criação de aplicativos que podem interagir com 
 - Criação e gerenciamento de playlists
 - Controle da reprodução
 
-O objetivo deste projeto é realizar a comunicação com a API, coletar 100 tuplas do Spotify e armazenar os dados no banco de dados PostgreSQL (>=12). Para atingir este objetivo, é necessário (i) realizar o diagrama entidade relacionamento e mapeamento relacional dos 12 endpoints existentes na documentação. Em seguida, (ii) o código da aplicação deverá solicitar da API 100 tuplas de pelo menos uma das endpoints 
+O objetivo deste projeto é realizar a comunicação com a API, coletar 100 tuplas do Spotify e armazenar os dados no banco de dados PostgreSQL (>=12). Para atingir este objetivo, é necessário (i) realizar o diagrama entidade relacionamento e mapeamento relacional dos 12 endpoints existentes na documentação. Em seguida, (ii) o código da aplicação deverá solicitar da API 100 tuplas de pelo menos uma das endpoints.
 
 ## Entregas
 
