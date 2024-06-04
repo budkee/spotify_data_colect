@@ -18,6 +18,18 @@
 
 > ENDPOINT: https://api.spotify.com/v1/me/albums
 
+### Get Available Genre Seeds
+
+> ENDPOINT: https://api.spotify.com/v1/recommendations/available-genre-seeds
+
+### Get Available Markets
+
+> ENDPOINT: https://api.spotify.com/v1/markets
+
+### Get Playlist
+
+> ENDPOINT: https://api.spotify.com/v1/playlists/{playlist_id}
+
 ## Mapeamento Relacional
 
 ### Albums
@@ -978,10 +990,295 @@ Users_Saved_Episodes(
 
 ### Genres
 
+Genres(
+    genres: array_strings
+)
+
 ### Markets
+
+Markets(
+    markets: array_strings
+)
 
 ### Playlists
 
+Playlists(
+    id_playlist: str,
+    market: str,
+    fields: str,
+    additional_types: str,
+    collaborative: boolean,
+    description: str/null,
+    externals_urls(
+        spotify: str
+    )
+    followers(
+        href: str/null,
+        total: int
+    )
+    href: str,
+    id_playlist: str,
+    images(
+        :array
+        url: str,
+        height: int/null,
+        width: int/null
+    )
+    name: str,
+    owner(
+        :str,
+        external_urls(spotify_url: str),
+        followers(
+        href: str/null,
+        total: int
+        )
+        href: str,
+        id_spotify_user: str,
+        type: str,
+        uri: str,
+        display_name: str/null
+    )
+    public: boolean,
+    id_snapshot: str,
+    tracks(
+        href: str,
+        limit: int,
+        next: str/null
+        offset: int
+        previous: str/null
+        total: int,
+        items: array_playlistTrackObject
+    )
+    type: str,
+    uri: str
+)
+playlist_items(
+    get(
+        id_playlist: str,
+        market: str,
+        fields: str,
+        limit: int,
+        offset: int,
+        additional_types: str
+    )
+    pages_tracks(
+        href: str,
+        limit: int,
+        next: str/null,
+        offset: int,
+        previous: str/null,
+        total: int
+    )
+    items(
+        :array_playlistTrackObject,
+        added_at: str,
+        added_by(
+            external_urls(spotify_url: str),
+            followers(
+                href: str/null,
+                total: int
+            )
+            href: int,
+            id_spotifyuser: str,
+            type: str,
+            uri, str
+        )
+        is_local: boolean,
+        track(
+            track_object(
+                Albums(
+                    id_album: str,
+                    market_album: str,
+                    album_type: str,
+                    total_tracks: int,
+                    available_markets: array_strings,
+                    external_urls(spotify_url: str),
+                    href_album: str,
+                    id_album: str,
+                    images(
+                    url: str,
+                    height: int/null,
+                    width: int/null
+                ),
+                name_album: str,
+                release_date: str,
+                release_date_precision: str,
+                restrictions(reason: str),
+                type: str,
+                uri: str,
+                artists(
+                    external_urls(spotify_url: str),
+                    href_artist: str,
+                    id_artist: str,
+                    name_artist: str,
+                    type: str,
+                    uri_artist: str
+                )
+                Artist(
+                    id_artist: str,
+                    external_urls(spotify_url: str),
+                    followers(
+                        href: str/null,
+                        total: int
+                    ),
+                    genres: array_strings,
+                    href_artist: str,
+                    id_artist: str,
+                    images(
+                        url_source: str,
+                        height: int/null,
+                        width:int/null
+                    ),
+                    name_artist: str,
+                    popularity: int,
+                    type: str,
+                    uri_artist: str
+                )
+                available_markets: array_str,
+                disc_number: int,
+                duration_ms: int,
+                explict: boolean,
+                external_ids(
+                    isrc: str,
+                    ean: str,
+                    upc: str
+                ),
+                external_urls(spotify_url: str),
+                href: str,
+                id_track: str,
+                is_playable: boolean,
+                linked_from(
+                    external_urls(spotify_url: str),
+                    href_track: string,
+                    id_track: string,
+                    type: str,
+                    uri_track: str
+                ),
+                restrictions(reason: str),
+                name: str,
+                popularity: int,
+                preview_url: str/null,
+                track_number: int,
+                type: str,
+                uri: str,
+                is_local: boolean,
+                Episode(
+                    id_ep: str,
+                    market: str,
+                    audio_preview_url: str,
+                    description: str,
+                    html_description: str,
+                    duration_ms: int,
+                    explict: boolean,
+                    external_urls(
+                        spotify_url: str
+                    ),
+                    href_episode: str,
+                    id_episode: str,
+                    images(
+                        :array
+                        url: str,
+                        height: int/null,
+                        width: int/null
+                    ),
+                    is_externally_hosted: boolean,
+                    is_playable: boolean,
+                    languages: array_str,
+                    name_ep: str,
+                    release_date: str,
+                    release_date_precision: str,
+                    resume_point(
+                        fully_played: boolean,
+                        resume_position_ms: int
+                    ),
+                    type: str,
+                    uri_ str,
+                    restrictions(
+                        reason: str
+                    ),
+                    show(
+                        available_markets: array_str,
+                        copyrights(
+                            :array
+                            text: str,
+                            type: str
+                        ),
+                        description: str,
+                        html_description: str,
+                        duration_ms: int,
+                        explict: boolean,
+                        external_urls(
+                            spotify_url: str
+                        ),
+                        href_show: str,
+                        id_show: str,
+                        images(
+                            :array
+                            url: str,
+                            height: int/null,
+                            width: int/null
+                        ),
+                        is_externally_hosted: boolean,
+                        languages: array_str,
+                        media_type: str,
+                        name_ep: str,
+                        publisher: str,
+                        type: str,
+                        uri_show: str,
+                        total_episodes: int
+                    )
+                )
+)
+get_featured_playlists(
+    get(
+        locale: str,
+        limit: int,
+        offset: int,
+    )
+    response(
+        message: str,
+        playlists(
+            href: str,
+            limit: int,
+            next: str/null,
+            offset: int,
+            previous: str/null,
+            total: int
+            items(
+                collaborative: boolean,
+                description: str,
+                external_urls(
+                href: str,
+                id_playlist: str,
+                )
+                images(
+                    url: str,
+                    height: int,
+                    width: int/null
+                )
+                name: str,
+                owner(
+                    external_urls(spotify_url: str),
+                    followers(
+                    href: str/null,
+                    total: int
+                    )
+                    href: str,
+                    id_spotify_user: str,
+                    type: str,
+                    uri: str,
+                    display_name: str/null
+                )
+                tracks(
+                    href: str,
+                    total: int
+                )
+                type: str,
+                uri: str
+            )
+        )
+    )
+)
 ### Shows
 
 ### Tracks
