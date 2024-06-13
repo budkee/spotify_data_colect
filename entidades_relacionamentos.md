@@ -2,11 +2,11 @@
 
 ## Entidades
 
-- Album(
+- Albuns(
     *id_album*: varchar(62),
     album_type: varchar(15),
     total_tracks: int,
-    -- Relacionamento: **available_album_market**: varchar(62)/varchar(2),
+    -- Relacionamento: **available_album_market**: varchar(2),
     spotify_url: varchar(100),
     href_album: varchar(100),
     **image**: int,
@@ -47,7 +47,6 @@
     explicit: boolean,
     spotify_url: varchar(100),
     is_playable: boolean,
-    type: varchar(10),
     uri_track: varchar(90),
     reason_restrictions: varchar(8),
     name_track: varchar(30),
@@ -56,7 +55,7 @@
     is_local: boolean
 )
 
-- Audiobook(
+- Audiobooks(
     *id_audiobook*: varchar(62),
     -- Relacionamento: **available_audiobook_market**: varchar(62)/varchar(2),
     -- Relacionamento: **audiobooks_authors**: varchar(62)/varchar(62),
@@ -95,7 +94,7 @@
     audio_preview_url: varchar(100)/null
 )
 
-- Episode(
+- Episodes(
     *id_ep*: varchar(62),
     audio_preview_url: varchar(100),
     description: varchar(250),
@@ -136,8 +135,7 @@
 )
 
 - Markets(
-    *id_market*: varchar(2),
-    country: varchar(20)
+    *id_market*: varchar(2)
 )
 
 - Images(
@@ -146,6 +144,23 @@
     height: int/null,
     width: int/null
 )
+
+- Playlists(
+
+)
+
+- Shows(
+
+)
+
+- Tracks(
+
+)
+
+- User(
+
+)
+
 
 ## Relacionamentos
 
