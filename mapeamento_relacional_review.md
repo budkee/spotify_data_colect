@@ -802,7 +802,7 @@ Playlists(
     uri: str
 )
 
-playlist_items(
+get_playlist_items(
     get(
         id_playlist: str,
         market: str,
@@ -811,6 +811,7 @@ playlist_items(
         offset: int,
         additional_types: str
     )
+    ###Response
     pages_tracks(
         href: str,
         limit: int,
@@ -983,6 +984,52 @@ playlist_items(
     )
 )
 
+get_current_user_playlit(
+    limit: int,
+    offset: int,
+    href: str,
+    limit: int,
+    next: str/null,
+    offset: int,
+    previous: str/null,
+    total: int,
+    items(
+        collaborative: boolean,
+        descripting: str,
+        external_urls(
+            spotify_url: str
+        )
+    href: str,
+    id_playlist: str,
+    images(
+        url: str,
+        height: int/null,
+        width: int/null
+    )
+    name: str,
+    owner(
+        external_urls(spotify_url: str),
+        followers(
+        href: str/null,
+        total: int
+        )
+        href: str,
+        id_user_spotify: str,
+        type: str,
+        uri: str,
+        display_name: str/null
+    )
+    public: boolean,
+    id_snapshot: str,
+    tracks(
+        href: str,
+        total: int
+    )
+    type: str,
+    uri: str
+    )
+)
+
 get_featured_playlists(
     get(
         locale: str,
@@ -1033,52 +1080,6 @@ get_featured_playlists(
                 uri: str
             )
         )
-    )
-)
-
-get_current_user_playlit(
-    limit: int,
-    offset: int,
-    href: str,
-    limit: int,
-    next: str/null,
-    offset: int,
-    previous: str/null,
-    total: int,
-    items(
-        collaborative: boolean,
-        descripting: str,
-        external_urls(
-            spotify_url: str
-        )
-    href: str,
-    id_playlist: str,
-    images(
-        url: str,
-        height: int/null,
-        width: int/null
-    )
-    name: str,
-    owner(
-        external_urls(spotify_url: str),
-        followers(
-        href: str/null,
-        total: int
-        )
-        href: str,
-        id_user_spotify: str,
-        type: str,
-        uri: str,
-        display_name: str/null
-    )
-    public: boolean,
-    id_snapshot: str,
-    tracks(
-        href: str,
-        total: int
-    )
-    type: str,
-    uri: str
     )
 )
 

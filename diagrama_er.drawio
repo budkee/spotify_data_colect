@@ -1,9 +1,108 @@
-<mxfile host="app.diagrams.net" modified="2024-05-21T15:19:57.149Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.4.0" etag="J_f1ISjQSjFKiFceltK0" type="github">
-  <diagram name="Página-1" id="Q_JXyCLZP9Ft0e6itj9V">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2024-06-13T21:30:20.112Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" etag="QbOwra1dwCLHWw705IBq" version="24.5.4" type="github">
+  <diagram name="main" id="Q_JXyCLZP9Ft0e6itj9V">
+    <mxGraphModel dx="1004" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-1" value="Albuns" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="170" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-2" value="Artists" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="190" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-3" value="Tracks" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="290" y="150" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-4" value="Audiobooks" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="540" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-5" value="Chapters" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="350" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-6" value="Episodes" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="430" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-7" value="Categories" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="510" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-8" value="Authors" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="90" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-9" value="Languages" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="270" y="310" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-10" value="Genres" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="490" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-11" value="Markets" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="100" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-12" value="Images" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="260" y="420" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-13" value="Playlists" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="390" y="410" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-14" value="Shows" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="390" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-15" value="User" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="550" y="420" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-16" value="Ep_Images" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="110" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-17" value="Ep_Languages" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="390" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-18" value="Category_Icons" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="260" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-20" value="Available_Audiobook_Market" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="650" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-21" value="Audiobook_Authors" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="440" y="650" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-22" value="Audiobook_Narrators" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="451" y="800" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-23" value="Audiobook_Images" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="175" y="830" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-24" value="Audiobook_Languages" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="550" y="525" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-25" value="Chapter_Languages" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="670" y="720" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-26" value="Album_Artists" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="760" y="640" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-27" value="Album_Tracks" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="840" y="540" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-28" value="Album_Genres" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="600" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-29" value="Artists_Tracks" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="700" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-30" value="Available_Track_Market" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="740" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-31" value="Available_Album_Market" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="790" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-32" value="Album_Images" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="530" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-33" value="Artist_Images" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="470" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gZlPeZgXp5JpuPVfZVzU-34" value="Chapter_Images" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="800" y="800" width="270" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
