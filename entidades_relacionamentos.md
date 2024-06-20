@@ -153,10 +153,6 @@
 
 )
 
-- Tracks(
-
-)
-
 - User(
 
 )
@@ -175,6 +171,7 @@
 )
 
 - Category_Icons(
+    *id_category*: varchar(62),
     *id_icon*: int,
     url_img: varchar(100),
     height: int/null
@@ -183,6 +180,16 @@
 
 - Available_Audiobook_Market(
     *id_audiobook*: varchar(62),
+    *id_market*: varchar(2)
+)
+
+- Available_Album_Market(
+    *id_album*: varchar(62),
+    *id_market*: varchar(2)
+)
+
+- Available_Track_Market(
+    *id_track*: varchar(62),
     *id_market*: varchar(2)
 )
 
@@ -212,6 +219,11 @@
     *id_language*: int
 )
 
+- Chapter_Images(
+    *id_chapter*: varchar(62)
+    *id_image*: int
+)
+
 - Album_Artists(
     *id_album*: varchar(62),
     *id_artist*: varchar(62)
@@ -226,16 +238,6 @@
 - Album_Genres(
     *id_album*: varchar(62),
     *id_genre*: int
-)
-
-- Available_Album_Market(
-    *id_album*: varchar(62),
-    *id_market*: varchar(2)
-)
-
-- Available_Track_Market(
-    *id_track*: varchar(62),
-    *id_market*: varchar(2)
 )
 
 - Artists_Tracks(
@@ -253,7 +255,3 @@
     *id_image*: int
 )
 
-- Chapter_Images(
-    *id_chapter*: varchar(62)
-    *id_image*: int
-)
